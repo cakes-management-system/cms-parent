@@ -16,6 +16,7 @@
         <java.version>17</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.boot.version>2.6.3</spring.boot.version>
+        <cms.starter.version>0.0.2-SNAPSHOT</cms.starter.version>
         <org.mapstruct.version>1.5.0.Beta2</org.mapstruct.version>
         <lombok-mapstruct-binding.version>0.2.0</lombok-mapstruct-binding.version>
         <springdoc-openapi-ui.version>1.6.5</springdoc-openapi-ui.version>

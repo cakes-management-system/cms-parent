@@ -25,6 +25,14 @@
         <jacoco-maven-plugin.version>0.8.7</jacoco-maven-plugin.version>
     </properties>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/cakes-management-system/cms-parent</url>
+        </repository>
+    </distributionManagement>
+
     <dependencyManagement>
         <dependencies>
             <dependency>

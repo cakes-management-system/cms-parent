@@ -1,0 +1,11 @@
+name: CI CMS parent
+
+on:
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build-cms-starter:
+    uses: cakes-management-system/ci-cd/.github/workflows/build-with-maven.yml@master
+    with:
+      display-name: CMS Parent

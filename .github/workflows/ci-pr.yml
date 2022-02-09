@@ -5,7 +5,7 @@ on:
     branches: [ master ]
 
 jobs:
-  build-cms-starter:
+  build:
     uses: cakes-management-system/ci-cd/.github/workflows/build-with-maven.yml@master
     with:
       display-name: CMS Parent
